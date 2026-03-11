@@ -1,6 +1,6 @@
 # Team Resistance Site
 
-Team website for FRC Team 86 - Team Resistance, built with Hugo.
+Website for Team Resistance, built with Hugo.
 
 ## Local Development
 

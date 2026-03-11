@@ -1,6 +1,6 @@
 baseURL = 'https://teamresistance.org/'
 languageCode = 'en-us'
-title = 'Team Resistance - FRC Team 86'
+title = 'Team Resistance'
 disableKinds = ['taxonomy', 'term']
 
 [params]

@@ -1,11 +1,11 @@
 ---
 title: "About Team Resistance"
-description: "Learn about FRC Team 86 - Team Resistance from Jacksonville, Florida"
+description: "Learn about Team Resistance"
 ---
 
 ## Who We Are
 
-Team Resistance is **FRC Team 86**, a FIRST Robotics Competition team based in Jacksonville, Florida. Our motto -- _Going against the current_ -- reflects our determination to push boundaries and challenge conventions in everything we build.
+Team Resistance is a FIRST Robotics Competition team based in Jacksonville, Florida. Our motto -- _Going against the current_ -- reflects our determination to push boundaries and challenge conventions in everything we build.
 
 ## Our Mission
 
