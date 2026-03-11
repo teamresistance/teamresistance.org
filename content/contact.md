@@ -1,6 +1,6 @@
 ---
 title: "Contact Us"
-description: "Get in touch with FRC Team 86 - Team Resistance"
+description: "Get in touch with Team Resistance"
 ---
 
 We would love to hear from you! Reach out using the appropriate contact below.
