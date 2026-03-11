@@ -1,0 +1,35 @@
+baseURL = 'https://teamresistance.org/'
+languageCode = 'en-us'
+title = 'Team Resistance - FRC Team 86'
+disableKinds = ['taxonomy', 'term']
+
+[params]
+  teamName = 'Team Resistance'
+  teamNumber = '86'
+  tagline = 'Going against the current'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # Allows HTML in markdown files
+
+[menu]
+  [[menu.main]]
+    name = 'About'
+    url = '/about/'
+    weight = 1
+
+  [[menu.main]]
+    name = 'Contact'
+    url = '/contact/'
+    weight = 2
+
+  [[menu.external]]
+    name = 'GitHub'
+    url = 'https://github.com/teamresistance'
+    weight = 1
+
+  [[menu.external]]
+    name = 'Instagram'
+    url = 'https://www.instagram.com/teamresistance86/'
+    weight = 2

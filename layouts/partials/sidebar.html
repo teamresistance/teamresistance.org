@@ -1,0 +1,37 @@
+<nav class="sidebar-nav" id="sidebar-nav">
+  <div class="nav-section">
+    <a href="/" {{ if .IsHome }} class="active" {{ end }}>Home</a>
+    <br />
+
+    <div class="nav-section-title">Pages</div>
+    <ul>
+      {{- range .Site.Menus.main }}
+      <li>
+        <a
+          href="{{ .URL }}"
+          {{
+          if
+          eq
+          $.RelPermalink
+          .URL
+          }}
+          class="active"
+          {{
+          end
+          }}
+          >{{ .Name }}</a
+        >
+      </li>
+      {{- end }}
+    </ul>
+  </div>
+
+  <div class="nav-section">
+    <div class="nav-section-title">Connect</div>
+    <ul>
+      {{- range .Site.Menus.external }}
+      <li><a href="{{ .URL }}" target="_blank">{{ .Name }} ↗</a></li>
+      {{- end }}
+    </ul>
+  </div>
+</nav>

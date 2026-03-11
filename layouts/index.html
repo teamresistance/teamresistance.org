@@ -1,0 +1,37 @@
+{{ define "main" }}
+<div class="hero-section fade-in">
+  <div class="hero-content">
+    <div class="logo-circle glow hero-logo">{{ .Site.Params.teamNumber }}</div>
+    <h1 class="hero-title">{{ .Site.Params.teamName }}</h1>
+  </div>
+  <p class="hero-subtitle">
+    FRC Team {{ .Site.Params.teamNumber }} &mdash; Jacksonville, Florida
+  </p>
+  <p class="hero-tagline"><em>{{ .Site.Params.tagline }}</em></p>
+</div>
+
+<h2 class="section-heading">About Us</h2>
+
+<div class="info-section-grid">
+  <div class="info-box">
+    <p>
+      Team Resistance is an FRC (FIRST Robotics Competition) team from
+      Jacksonville, Florida. We are dedicated to teaching students real-world
+      skills through the challenge of building competitive robots.
+    </p>
+    <p><a href="/about/" class="btn">Learn More About Us &rarr;</a></p>
+  </div>
+</div>
+
+<h2 class="challenges-heading">Contact</h2>
+
+<div class="info-section-grid">
+  <div class="info-box">
+    <p>
+      Have questions? Reach out to us for general inquiries, sponsorship,
+      student recruitment, volunteering, or media requests.
+    </p>
+    <p><a href="/contact/" class="btn">Contact Us &rarr;</a></p>
+  </div>
+</div>
+{{ end }}
